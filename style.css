@@ -1,0 +1,69 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+
+#outer{
+    background-color: black;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.inner{
+    margin:auto;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+}
+
+.square{
+    margin:auto;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+}
+
+.rectangle{
+    height: 60px;
+    width: 100px;
+    background-color: white;
+    margin: auto;
+}
+
+.circle{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: white;
+    margin: auto;
+}
+
+.triangle{
+    width: 0;
+	height: 0;
+    background-color: transparent;
+    border-bottom: 70px solid white;
+    border-right: 70px solid transparent;
+    border-left: 70px solid transparent;
+    margin: auto;
+}
+
+.diamond{
+    width: 0;
+	height: 0;
+    background-color: transparent;
+    border-top: 70px solid white;
+    border-right: 70px solid transparent;
+    border-left: 70px solid transparent;
+    margin: auto;
+}
+
+#color-btn, #shape-btn{
+    margin-bottom: 20px;
+}
